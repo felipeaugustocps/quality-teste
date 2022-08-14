@@ -2,7 +2,7 @@
 Teste crud usuario com api viacep
 
 
-Criação do banco 
+# Criação do banco 
 
 CREATE DATABASE IF NOT EXISTS `quality` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `quality`;
@@ -30,7 +30,7 @@ CREATE TABLE `usuarios` (
 
 
 
-Dados de conexão com o banco
+# Dados de conexão com o banco
 Os dados podem ser alterados, basta mudar os parametro na linha 11 do arquivo api/conn.php
 
 host = 'localhost'
