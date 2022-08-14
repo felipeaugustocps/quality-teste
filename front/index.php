@@ -323,6 +323,7 @@
 
             // limpa inputs da modal ao fechar
             $(document).on('hide.bs.modal', '#modalNovoUsuario', function(){
+                linhas.map( e => $(`#tr_${e.id}`).show() ); // garante que todas linhas da tabela estejam visiveis apos atualizar um usuario
                 $('.modal-title').html('Novo usuário');
                 $('input').val('');
             });
