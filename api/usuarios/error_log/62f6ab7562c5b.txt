@@ -1,0 +1,1 @@
+Mysql Erro: Column 'codigo' cannot be null SQL QUERY: INSERT INTO usuarios (idUsuario,nome,codigo,cpf_cnpj,cep,logradouro,endereco,numero,bairro,cidade,uf,complemento,fone,limiteCredito,validade) VALUES ('50','teste',null,null,null,null,null,null,null,null,null,null,null,null,null)

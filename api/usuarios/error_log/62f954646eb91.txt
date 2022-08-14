@@ -1,0 +1,1 @@
+Mysql Erro: Unknown column 'idUsuario' in 'order clause' SQL QUERY: SELECT * FROM usuarios ORDER BY idUsuario ASC
